@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fragmentexample.app.BlankFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textview1"
+        android:background="@drawable/red_ball"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text=""
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:background="@drawable/blue_ball"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Bounce"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="25sp" />
+
+</FrameLayout>

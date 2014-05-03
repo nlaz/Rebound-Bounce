@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353535"
+    android:orientation="vertical"
+    tools:context="com.example.fragmentexample.app.MainActivity">
+
+    <TextView
+        android:text="Rebound"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" />
+
+    <FrameLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+</RelativeLayout>
