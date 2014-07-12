@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/nlazaris/src/ReboundExample/app/build/intermediates/pre-dexed/debug/rebound-v0.3.3-f393e2322bb24020e8207d8e3aa30c1363fed31c.jar"
+        jar="/Users/nlazaris/src/ReboundExample/app/libs/rebound-v0.3.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0c0b3b2e6b17fdc50b1ab8dd8a8d0a16dd511c31"/>
+    <item
+        dex="/Users/nlazaris/src/ReboundExample/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

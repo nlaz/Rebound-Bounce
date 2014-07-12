@@ -16,12 +16,7 @@ import com.facebook.rebound.SpringConfig;
 import com.facebook.rebound.SpringSystem;
 import com.facebook.rebound.SpringUtil;
 
-
-/**
- * A simple {@link android.support.v4.app.Fragment} subclass.
- *
- */
-public class BlankFragment1 extends Fragment {
+public class BlankFragment extends Fragment {
 
     SpringSystem springSystem;
     Spring spring1;
@@ -32,16 +27,12 @@ public class BlankFragment1 extends Fragment {
     TextView textview2;
     private final ExampleSpringListener mSpringListener = new ExampleSpringListener();
 
-    public BlankFragment1() {
-        // Required empty public constructor
-    }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_blank1, container, false);
+        View view = inflater.inflate(R.layout.fragment_blank, container, false);
         FrameLayout frame = (FrameLayout) view.findViewById(R.id.fragment1);
         textview1 = (TextView) view.findViewById(R.id.textview1);
         textview2 = (TextView) view.findViewById(R.id.textview2);
@@ -64,7 +55,6 @@ public class BlankFragment1 extends Fragment {
         spring2.setSpringConfig(SpringConfig.fromOrigamiTensionAndFriction(1,.2));
         spring1.setCurrentValue(1);
         // Set the spring in motion; moving from 0 to 1
-//        spring.setEndValue(1);
 
         textview1.setOnTouchListener(viewListener);
         textview2.setOnTouchListener(viewListener);
@@ -91,13 +81,6 @@ public class BlankFragment1 extends Fragment {
             return true;
         }
     };
-
-//    FragmentTransaction nFragmentTransaction = getFragmentManager().beginTransaction();
-//
-//    nFragmentTransaction.setCustomAnimations(R.anim.slide_in_left,R.anim.slide_out_right, R.anim.slide_in_right, R.anim.slide_out_left);
-//    nFragmentTransaction.replace(R.id.login_frame, fragment_old_user);
-//    nFragmentTransaction.addToBackStack(nTag);
-//    nFragmentTransaction.commit();
 
     private class ExampleSpringListener extends SimpleSpringListener {
         @Override
