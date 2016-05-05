@@ -1,7 +1,6 @@
 package com.example.fragmentexample.app;
 
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -16,7 +15,7 @@ import com.facebook.rebound.SpringConfig;
 import com.facebook.rebound.SpringSystem;
 import com.facebook.rebound.SpringUtil;
 
-public class BlankFragment extends Fragment {
+public class BounceFragment extends android.app.Fragment {
 
     SpringSystem springSystem;
     Spring spring1;
@@ -32,7 +31,7 @@ public class BlankFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_blank, container, false);
+        View view = inflater.inflate(R.layout.fragment, container, false);
         FrameLayout frame = (FrameLayout) view.findViewById(R.id.fragment1);
         textview1 = (TextView) view.findViewById(R.id.textview1);
         textview2 = (TextView) view.findViewById(R.id.textview2);

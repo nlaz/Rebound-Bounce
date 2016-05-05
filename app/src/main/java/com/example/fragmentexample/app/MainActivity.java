@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
 
         // We replace the fragment
         FragmentManager fragmentManager = getFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.frame, new BlankFragment()).commit();
+        fragmentManager.beginTransaction().replace(R.id.frame, new BounceFragment()).commit();
     }
 
 }

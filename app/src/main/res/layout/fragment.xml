@@ -3,7 +3,7 @@
     android:id="@+id/fragment1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fragmentexample.app.BlankFragment">
+    tools:context=".BounceFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -24,7 +24,6 @@
         android:gravity="center"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:text="Bounce"
         android:textColor="#fff"
         android:layout_gravity="center"
         android:textSize="25sp" />
