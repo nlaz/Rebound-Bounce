@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/nlazaris/src/ReboundExample/app/build/intermediates/pre-dexed/debug/rebound-v0.3.3-f393e2322bb24020e8207d8e3aa30c1363fed31c.jar"
-        jar="/Users/nlazaris/src/ReboundExample/app/libs/rebound-v0.3.3.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="0c0b3b2e6b17fdc50b1ab8dd8a8d0a16dd511c31"/>
+        jar="/Users/nlazaris/android/ReboundExample/app/libs/rebound-v0.3.3.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="0c0b3b2e6b17fdc50b1ab8dd8a8d0a16dd511c31">
+        <dex dex="/Users/nlazaris/android/ReboundExample/app/build/intermediates/transforms/dex/debug/folders/1000/2/rebound-v0.3.3_0baff390f2071f32bead2de773d28b3ede4990ec/classes.dex" />
+    </item>
     <item
-        dex="/Users/nlazaris/src/ReboundExample/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
-        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+        jar="/Users/nlazaris/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/nlazaris/android/ReboundExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-19.1.0_52709339d5480a2f6344ba08b339bffa3646b5ea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nlazaris/android/ReboundExample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="312a190410f62f8608f29ee73273e8bdd728f247">
+        <dex dex="/Users/nlazaris/android/ReboundExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a666c34b985f2ed56eb382ce63afaf8ff24940a7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/nlazaris/android/ReboundExample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="621bff10357c6582507fd0f524170e694ecf4f64">
+        <dex dex="/Users/nlazaris/android/ReboundExample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e16b87cea6e1247336322c15f2e56932ba6f1e2e/classes.dex" />
+    </item>
 
-</pre-dex-items>
+</items>
