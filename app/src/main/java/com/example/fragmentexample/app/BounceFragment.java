@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.facebook.rebound.SimpleSpringListener;
@@ -32,7 +31,7 @@ public class BounceFragment extends android.app.Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment, container, false);
-        FrameLayout frame = (FrameLayout) view.findViewById(R.id.fragment1);
+        getActivity().setTitle("Rebound Example");
         textview1 = (TextView) view.findViewById(R.id.textview1);
         textview2 = (TextView) view.findViewById(R.id.textview2);
 
